@@ -1,0 +1,13 @@
+<table id="remains-table" class="table material-table">
+	<thead>
+		<tr>
+		    <th class="id">#</th>
+            <th class="name">Имя</th>
+            <th class="url">Ccылка</th>
+			<?php iv('headerRows')?>
+		</tr>
+	</thead>
+	<tbody>
+	    <?php v('rows')?>
+	</tbody>
+</table>

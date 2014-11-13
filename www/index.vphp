@@ -1,0 +1,7 @@
+<section class="top clearfix">
+	<h1>Выгрузка материалов</h1>
+</section>
+<section id="content">
+	<?php //v('table_html') ?>
+	<?php v('table') ?>
+</section>

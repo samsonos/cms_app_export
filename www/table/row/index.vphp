@@ -1,0 +1,6 @@
+<tr>
+    <td class="id"><?php iv('material_id')?></td>
+    <td class="name"><?php iv('material_Name')?></td>
+    <td class="url"><?php iv('material_Url')?></td>
+	<?php iv('cols')?>
+</tr>
