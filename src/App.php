@@ -1,7 +1,7 @@
 <?php
 namespace samson\cms\export;
 
-class ExportApp extends \samson\core\CompressableExternalModule
+class ExportApp extends \samson\cms\App
 {
     /** @var string Application name */
     public $app_name = 'Выгрузка';
