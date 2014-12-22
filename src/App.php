@@ -9,6 +9,9 @@ class ExportApp extends \samson\cms\App
     /** @var string	Application identifier */
     protected $id = 'export';
 
+    /** @var bool Hide in menu */
+    public $hide = true;
+
     /** Generic controller
      * @var $structure
      */
