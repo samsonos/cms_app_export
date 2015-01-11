@@ -152,7 +152,7 @@ class Table extends \samson\cms\table\Table
      * Universal SamsonCMS table render
      * @return string HTML SamsonCMS table
      */
-    public function render( array $db_rows = null)
+    public function render( array $db_rows = null, $module = null)
     {
         // Rows HTML
         $rows = '';
