@@ -154,6 +154,7 @@ class Table extends \samson\cms\table\Table
      */
     public function render( array $db_rows = null, $module = null)
     {
+
         // Rows HTML
         $rows = '';
 
